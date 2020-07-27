@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_razvojnoOkolje", "Wpf_razvojnoOkolje\Wpf_razvojnoOkolje.csproj", "{31F028A3-6EC9-4678-A7C3-6034C837441A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31F028A3-6EC9-4678-A7C3-6034C837441A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F028A3-6EC9-4678-A7C3-6034C837441A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F028A3-6EC9-4678-A7C3-6034C837441A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F028A3-6EC9-4678-A7C3-6034C837441A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A73AB15-F745-4C13-BBCE-EB6A11552555}
+	EndGlobalSection
+EndGlobal

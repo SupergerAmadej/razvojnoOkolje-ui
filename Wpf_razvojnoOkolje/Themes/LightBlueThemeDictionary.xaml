@@ -1,0 +1,58 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                   xmlns:local="clr-namespace:Wpf_razvojnoOkolje">
+
+    <Style TargetType="Button">
+        <Setter Property="Background" Value="#3c70a4"/>
+        <Setter Property="Foreground" Value="#d9eeec"/>
+    </Style>
+
+    <Style TargetType="Menu">
+        <Setter Property="Background" Value="#64b2cd"/>
+    </Style>
+
+    <Style TargetType="MenuItem">
+        <Setter Property="Background" Value="#64b2cd"/>
+        <Setter Property="Foreground" Value="Black"/>
+    </Style>
+
+    <Style TargetType="MenuItem" x:Key="ExpandedMenuItem">
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Background" Value="#3c70a4"/>
+        <Setter Property="BorderBrush" Value="#3c70a4"/>
+    </Style>
+
+    <Style TargetType="TabControl">
+        <Setter Property="Background" Value="#64b2cd"/>
+    </Style>
+
+    <Style TargetType="DockPanel">
+        <Setter Property="Background" Value="#3c70a4"/>
+    </Style>
+
+    <Style TargetType="ListView">
+        <Setter Property="Background" Value="#64b2cd"/>
+    </Style>
+
+    <Style TargetType="ListViewItem">
+        <Setter Property="Background" Value="#64b2cd"/>
+        <Setter Property="Foreground" Value="#d9eeec"/>
+    </Style>
+
+    <Style TargetType="RichTextBox">
+        <Setter Property="Background" Value="#d9eeec"/>
+    </Style>
+
+    <Style TargetType="StatusBar">
+        <Setter Property="Background" Value="#d9eeec"/>
+    </Style>
+
+    <Style TargetType="TreeView">
+        <Setter Property="Background" Value="#d9eeec"/>
+    </Style>
+
+    <Style TargetType="Grid" x:Key="SpecialGrid">
+        <Setter Property="Background" Value="#192965"/>
+    </Style>
+
+</ResourceDictionary>

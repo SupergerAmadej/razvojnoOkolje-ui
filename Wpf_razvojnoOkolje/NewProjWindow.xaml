@@ -1,0 +1,27 @@
+﻿<Window x:Class="Wpf_razvojnoOkolje.NewProjWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_razvojnoOkolje"
+        mc:Ignorable="d"
+        Title="NewProjWindow" Height="500" Width="450" ResizeMode="NoResize">
+    <Grid Style="{StaticResource SpecialGrid}">
+        <ComboBox x:Name="comboBoxProjProgJezik" TabIndex="2" HorizontalAlignment="Left" Margin="20,160,0,0" VerticalAlignment="Top" Width="160" Height="30" SelectionChanged="comboBoxProjProgJezik_SelectionChanged"/>
+        <ComboBox x:Name="comboBoxProjVrsta" TabIndex="4" HorizontalAlignment="Left" Margin="20,225,0,0" VerticalAlignment="Top" Width="160" Height="30"/>
+        <ComboBox x:Name="comboBoxProjOgrodje" TabIndex="3" HorizontalAlignment="Left" Margin="225,160,0,0" VerticalAlignment="Top" Width="160" Height="30"/>
+        <TextBox x:Name="textBoxProjNaziv" TabIndex="0" HorizontalAlignment="Left" Height="20" Margin="20,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160"/>
+        <Button x:Name="buttonProjBrowseLocation" TabIndex="5" Content="Browse" HorizontalAlignment="Left" Margin="20,340,0,0" VerticalAlignment="Top" Width="75" Click="buttonProjBrowseLocation_Click"/>
+        <TextBlock x:Name="textBlockProjLokacija" HorizontalAlignment="Left" Margin="105,340,0,0" TextWrapping="Wrap" Text="default" VerticalAlignment="Top" Height="60" Width="325"/>
+        <TextBox x:Name="textBoxProjAvtor" TabIndex="1" HorizontalAlignment="Left" Height="20" Margin="20,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160"/>
+        <Label x:Name="label" Content="Naziv Projekta" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Avtor" HorizontalAlignment="Left" Margin="20,74,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Programski jezik" HorizontalAlignment="Left" Margin="20,139,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Vrsta Projekta" HorizontalAlignment="Left" Margin="20,204,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Ogrodje" HorizontalAlignment="Left" Margin="225,140,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="Lokacija" HorizontalAlignment="Left" Margin="17,319,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttonProjCancel" Content="Prekliči" TabIndex="7"  HorizontalAlignment="Left" Margin="355,430,0,0" VerticalAlignment="Top" Width="75" Click="buttonProjCancel_Click"/>
+        <Button x:Name="buttonProjConfirm" Content="Potrdi" TabIndex="6" HorizontalAlignment="Left" Margin="270,430,0,0" VerticalAlignment="Top" Width="75" Click="buttonProjConfirm_Click"/>
+
+    </Grid>
+</Window>

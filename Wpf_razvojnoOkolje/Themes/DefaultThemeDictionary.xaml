@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Wpf_razvojnoOkolje">
+
+
+    <Style TargetType="MenuItem" x:Key="ExpandedMenuItem">
+
+    </Style>
+
+    <Style TargetType="Grid" x:Key="SpecialGrid">
+        <Setter Property="Background" Value="#FFE5E5E5"/>
+    </Style>
+
+</ResourceDictionary>
